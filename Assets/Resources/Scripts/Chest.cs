@@ -22,6 +22,7 @@ public class Chest : MonoBehaviour
     void OpenChest()
     {
         spriteRenderer.sprite = spriteArr[1];
+        TrapChest.SendChestOpened();
     }
 
     void CloseChest()
